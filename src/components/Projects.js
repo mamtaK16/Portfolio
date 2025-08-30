@@ -10,7 +10,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "A modern portfolio website built with React and Tailwind CSS, featuring smooth animations and responsive design.",
       image: "/image/portfolio-hero.png",
-      github: "https://github.com/yourusername/portfolio",
+      github: "https://github.com/mamtaK16/Portfolio",
       // live: "https://yourportfolio.com",
       tags: ["React", "Tailwind CSS", "Framer Motion"]
     },
@@ -121,7 +121,7 @@ const Projects = () => {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-textSecondary  transition-colors cursor-not-allowed"
+                      className="text-textSecondary hover:text-secondary transition-colors"
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.95 }}
                     >
