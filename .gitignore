@@ -1,0 +1,10 @@
+﻿node_modules/
+build/
+dist/
+.cache/
+coverage/
+.env*
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+.DS_Store
