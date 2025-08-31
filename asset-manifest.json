@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mmt-portfolio/static/css/main.a2228b42.css",
+    "main.js": "/Mmt-portfolio/static/js/main.bdda9d47.js",
+    "index.html": "/Mmt-portfolio/index.html",
+    "main.a2228b42.css.map": "/Mmt-portfolio/static/css/main.a2228b42.css.map",
+    "main.bdda9d47.js.map": "/Mmt-portfolio/static/js/main.bdda9d47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2228b42.css",
+    "static/js/main.bdda9d47.js"
+  ]
+}
