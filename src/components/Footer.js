@@ -28,10 +28,17 @@ const Footer = () => {
       <div className="max-w-screen-lg mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-textSecondary text-sm ">
-            © {new Date().getFullYear()} Mamta. All rights reserved.
+            © {new Date().getFullYear()} Mamta. Short and sweet.
           </div>
           
-          <div className="flex gap-4">
+          <div className="flex items-center gap-4">
+            <a
+              href={`${process.env.PUBLIC_URL}/mamta-resume11[1].pdf`}
+              download
+              className="px-4 py-2 rounded-md border border-secondary/30 text-secondary hover:bg-secondary/10 transition-colors text-sm"
+            >
+              Download Resume
+            </a>
             {/* {socialLinks.map(({ id, icon, href, label }) => (
               <a
                 key={id}

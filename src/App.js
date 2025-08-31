@@ -15,9 +15,9 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <About />
       <Projects />
       <Experience />
+      <About />
       <Contact />
     </div>
   );
@@ -25,7 +25,7 @@ const Home = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="bg-gradient-to-br from-white via-accent to-white">
         <Navbar />
         <Routes>

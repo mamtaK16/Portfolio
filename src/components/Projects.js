@@ -9,7 +9,7 @@ const Projects = () => {
       id: "portfolio",
       title: "Portfolio Website",
       description: "A modern portfolio website built with React and Tailwind CSS, featuring smooth animations and responsive design.",
-      image: "/image/portfolio-hero.png",
+      image: `${process.env.PUBLIC_URL}/image/portfolio-hero.png`,
       github: "https://github.com/mamtaK16/Portfolio",
       // live: "https://yourportfolio.com",
       tags: ["React", "Tailwind CSS", "Framer Motion"]

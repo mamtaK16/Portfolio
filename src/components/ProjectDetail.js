@@ -16,7 +16,7 @@ const projects = {
     • Dark/Light theme support
     • Interactive components and dynamic content loading
     • Optimized performance and SEO`,
-    images: ["/image/code backgroundimage.jpg"],
+    images: [`${process.env.PUBLIC_URL}/image/code backgroundimage.jpg`],
     technologies: [
       { name: "React", icon: SiReact },
       { name: "Tailwind CSS", icon: SiTailwindcss },

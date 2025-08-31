@@ -90,11 +90,11 @@ const Hero = () => {
           <motion.div variants={fadeInUp} className="mt-6">
             <TypeAnimation
               sequence={[
-                'Building scalable web applications',
+                'Builds fast, clean UIs',
                 2000,
-                'Crafting responsive user interfaces',
+                'Shipped real products',
                 2000,
-                'Creating seamless user experiences',
+                'Open to opportunities',
                 2000,
               ]}
               wrapper="span"
@@ -108,7 +108,7 @@ const Hero = () => {
             variants={fadeInUp}
             className="text-textSecondary/90 py-6 max-w-md leading-relaxed text-lg"
           >
-            Experienced frontend developer specializing in creating modern and intuitive web applications with a focus on performance and user experience.
+            I design and build responsive React apps focused on performance and clarity.
           </motion.p>
 
           <motion.div 
@@ -116,12 +116,12 @@ const Hero = () => {
             className="flex flex-wrap gap-5 mt-2"
           >
             <Link
-              to="contact"
+              to="projects"
               smooth
               duration={500}
               className="group relative inline-flex items-center justify-center bg-secondary hover:bg-secondary/90 text-white px-8 py-3 rounded-lg transition-all duration-300"
             >
-              Contact me
+              View projects
               <motion.span 
                 className="ml-2 group-hover:translate-x-1 transition-transform duration-300"
               >
@@ -130,11 +130,11 @@ const Hero = () => {
             </Link>
 
             <motion.a
-              href="/mamta-resume11[1].pdf"
+              href={`${process.env.PUBLIC_URL}/mamta-resume11[1].pdf`}
               download
               className="group relative inline-flex items-center justify-center px-8 py-3 rounded-lg border-2 border-secondary/20 hover:border-secondary text-secondary hover:bg-secondary/5 transition-all duration-300"
             >
-              Download CV
+              Download Resume
             </motion.a>
           </motion.div>
 
@@ -193,7 +193,7 @@ const Hero = () => {
             
             <div className="relative">
               <img 
-                src="/image/Writing_codes.png"
+                src={`${process.env.PUBLIC_URL}/image/Writing_codes.png`}
                 alt="Developer illustration"
                 className="w-full max-w-lg mx-auto rounded-xl"
               />
@@ -361,7 +361,7 @@ const Hero = () => {
                   transition={{ duration: 0.3 }}
                 >
                   <img
-                    src="/image/code backgroundimage.jpg"
+                    src={`${process.env.PUBLIC_URL}/image/code backgroundimage.jpg`}
                     alt="MacBook Pro"
                     className="w-full rounded-2xl shadow-xl"
                   />
